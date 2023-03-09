@@ -47,7 +47,7 @@ export class PokemonController {
       const addExternalPokemonResult = await this.pokemonService.addExternal(req.params.id);
       res.send(addExternalPokemonResult);
     } catch (e) {
-      res.status(500).send(CREATE_EXTERNAL_ERROR + e);
+      res.status(404).send(CREATE_EXTERNAL_ERROR + e);
     }
   };
   
@@ -59,7 +59,7 @@ export class PokemonController {
       );
       res.send(deletePokemonResult);
     } catch (e) {
-      res.status(500).send(DELETE_ERROR + e);
+      res.status(404).send(DELETE_ERROR + e);
     }
   };
 
@@ -71,7 +71,7 @@ export class PokemonController {
       );
       res.send(updatePokemonResult);
     } catch (e) {
-      res.status(500).send(UPDATE_ERROR + e);
+      res.status(404).send(UPDATE_ERROR + e);
     }
   };
 
