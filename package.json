@@ -1,0 +1,41 @@
+{
+  "name": "amaris",
+  "version": "1.0.0",
+  "description": "this is a demo app for evaluating purposes",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aetrial/amaris.git"
+  },
+  "keywords": [
+    "amaris",
+    "test"
+  ],
+  "author": "Ali Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aetrial/amaris/issues"
+  },
+  "homepage": "https://github.com/aetrial/amaris#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^5.9.21",
+    "node-fetch": "^2.6.9"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^18.14.6",
+    "@types/node-fetch": "^2.6.2",
+    "nodemon": "^2.0.21",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}
