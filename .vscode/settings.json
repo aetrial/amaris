@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/2a63546f-a87c-4537-959a-c3b66c7b27a8/resourceGroups/Amaris-Test-Pokeapp-rg/providers/Microsoft.Web/sites/Amaris-Test-Pokeapp",
+    "appService.deploySubpath": "."
+}
